@@ -1,0 +1,4 @@
+module.exports = {
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/adopt-pet-vue-app-demo/" : "/"
+};
